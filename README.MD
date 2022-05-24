@@ -2,6 +2,8 @@
 
 Using Ableton-JS (https://github.com/leolabs/ableton-js) to expose the clipname of that is playing on a track for usage in broadcast or other applications. 
 
+Full tutorial video: https://youtu.be/i1Gl_bOmTZA
+
 ## Installation
 Clone this repository and in the folder do:
 
