@@ -3,7 +3,7 @@ import express from 'express';
 import * as fs from 'fs';
 
 
-
+const track_number = 3
 const ableton = new Ableton();
 const app = express()
 const port = 3000
@@ -37,7 +37,7 @@ const getPlayingClipTrack = async () => {
 const tracks = await ableton.song.get("tracks");
 
 
-  let clip_slots = await tracks[2].get("clip_slots")
+  let clip_slots = await tracks[track_number - 1].get("clip_slots")
   
   clip_slots.forEach(async (slot) => {
     if(slot.raw.is_playing === true){
