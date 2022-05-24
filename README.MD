@@ -1,6 +1,6 @@
 ## Ableton Live Track Clip Name
 
-Using Ableton-JS (https://github.com/leolabs/ableton-js) to expose the clipname of that is playing on a track. 
+Using Ableton-JS (https://github.com/leolabs/ableton-js) to expose the clipname of that is playing on a track for usage in broadcast or other applications. 
 
 ## Installation
 Clone this repository and in the folder do:
